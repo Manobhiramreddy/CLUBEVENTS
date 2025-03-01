@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isHomePage ? "home-navbar" : ""}`}>
       <div className={`navbar-left ${isHomePage ? "home-navbar-left" : ""}`}>
-        <img src="/src/images/ccc.png" alt="IEEE Logo" className="navbar-logo zoom-animation" />
+        <img src="public/images/ccc.png" alt="IEEE Logo" className="navbar-logo zoom-animation" />
         <img src="/src/images/cbit.png" alt="CBIT Logo" className="navbar-logo zoom-animation" />
       </div>
       <ul className="navbar-links">
