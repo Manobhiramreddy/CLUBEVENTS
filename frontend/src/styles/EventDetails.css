@@ -1,0 +1,72 @@
+
+  
+  /* Left Section (Button) */
+  .conference-left {
+    display: flex;
+    align-items: center;
+    padding-right: 20px; /* Add spacing to the right */
+    border-right: 2px solid #00ff85; /* Green vertical line */
+  }
+  
+  .conference-left .watch-btn {
+    background-color: transparent;
+    color: #00ff85; /* Neon green text */
+    border: 2px solid #00ff85; /* Neon green border */
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .conference-left .watch-btn:hover {
+    background-color: #00ff85; /* Neon green background on hover */
+    color: #0b1120; /* Dark blue text on hover */
+  }
+  
+  /* Center Section (Title) */
+  .conference-center {
+    text-align: center;
+    padding-left: 20px; /* Add spacing to the left */
+    padding-right: 20px; /* Add spacing to the right */
+    border-right: 2px solid #00ff85; /* Green vertical line */
+  }
+  
+  .webinar-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .conference-center h2 {
+    font-size: 24px;
+  }
+  
+  /* Right Section (Speaker Info) */
+  .conference-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .speaker-image {
+    height: 70px; /* Adjust speaker image size */
+    width: 70px;
+    border-radius: 50%; /* Circular image */
+    margin-right: 15px;
+  }
+  
+  .conference-right h3 {
+    margin: 0;
+  }
+  
+  .conference-right p {
+    margin: 0;
+  }
+  .conference-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    padding-top: 80px; /* Adjust padding-top to provide space for navbar */
+    background-color: #0b1120; /* Same dark blue background as navbar */
+    color: #00ff85; /* Neon green text color */
+    border-top: 1px solid #00ff85; /* Optional border for separation */
+}

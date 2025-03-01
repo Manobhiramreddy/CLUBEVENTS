@@ -1,0 +1,110 @@
+/* Global Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7fafc;
+    padding: 20px;
+    min-height: 60vh;
+  }
+  
+  /* Content Box */
+  .content {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0c0636;
+    margin-bottom: 4rem;
+  }
+  
+  .highlight {
+    color: #3a4d8f;
+  }
+  
+  /* Dates Grid */
+  .dates-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 640px) {
+    .dates-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .dates-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* Date Card */
+  .date-card {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .date-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #3a4d8f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  /* Icon Container */
+  .icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 4px solid #3a4d8f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    width: 24px;
+  }
+  
+  /* Labels */
+  .label {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #333;
+    margin-top: 1.5rem;
+  }
+  
+  .date {
+    font-weight: bold;
+    color: #3a4d8f;
+    margin-top: 0.5rem;
+  }
+  

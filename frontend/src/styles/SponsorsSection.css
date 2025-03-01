@@ -1,0 +1,44 @@
+/* Sponsors Section Container */
+.sponsors-section {
+    background-color: #0b1120; /* Dark blue background */
+    padding: 60px 0;
+  }
+  
+  /* Marquee Wrapper */
+  .marquee {
+    display: flex;
+    overflow-x: hidden; /* Hide overflow */
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: scroll-marquee 60s linear infinite; /* Continuous scrolling animation */
+  }
+  
+  /* Individual Sponsor Item */
+  .sponsor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px; /* Spacing between items */
+  }
+  
+  .sponsor-icon {
+    height: 80px; /* Adjust size of sponsor icons */
+  }
+  
+  .sponsor-item p {
+    font-size: 20px;
+    color: white; /* White text for sponsor names */
+  }
+  
+  /* Marquee Animation */
+  @keyframes scroll-marquee {
+    from {
+      transform: translateX(0); /* Start position */
+    }
+    to {
+      transform: translateX(-100%); /* Move left by the width of the content */
+    }
+  }
+  

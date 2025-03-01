@@ -1,0 +1,118 @@
+/* Clubs Page Container */
+.clubs-container {
+    text-align: center;
+    padding: 100px;
+    background-color: #f9f9f9; /* Light background for the page */
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Clubs Grid */
+  .clubs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr)); /* Three columns per row */
+    gap: 30px; /* Space between cards */
+  }
+  
+  /* Club Card */
+  .club-card {
+    position: relative;
+    background-color: #000000; /* White background for cards */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px; /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure content stays within the card */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover animation */
+  }
+  
+  .club-card:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 10px; /* Stronger shadow on hover */
+  }
+  
+  /* Club Logo Animation */
+  .club-logos {
+    display: block;
+    width: 100%; /* Full width of the card */
+    height: 500px;
+    max-height: 300px; /* Restrict logo height to prevent overlap */
+    margin-top: -50px; /* Add spacing above the logo */
+  }
+  
+  .club-logos:hover {
+      transform: scale(.9);
+  }
+  /* Club Info Section (Name and Button) */
+  
+  .club-info {
+      transition: scale;
+  }
+  /* Club Info Section (Name and Button) */
+.club-info {
+    position: absolute;
+    bottom: 0; /* Align the info section at the bottom */
+    width: 100%; /* Full width of the card */
+    background-color: #c1b8b8b6; /* White background for the info section */
+    padding: 5px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth animation */
+  }
+  
+  /* Club Name */
+  .club-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000; /* Dark gray text color for readability */
+    margin-bottom: 10px;
+  }
+  
+  .club-name:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  /* Club Button */
+  .club-button {
+    display: inline-block;
+    background-color: #28a745; /* Green background for button */
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px; /* Rounded corners for the button */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth hover effects */
+  }
+  
+  .club-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Uniform Card Size Fix */
+  .club-card {
+    height: 250px; /* Allow flexible height based on content */
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {.clubs-grid {
+      grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Two columns per row on smaller screens */
+      gap: 20px; /* Reduce spacing between cards */}
+    
+    }
+  
+    .search-bar {
+      width: 80%; /* Adjust search bar width for smaller screens */
+      font-size: 14px;
+      padding: 8px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border-color:green;
+  }
+    

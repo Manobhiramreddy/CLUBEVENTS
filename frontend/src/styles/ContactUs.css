@@ -1,0 +1,87 @@
+/* Contact Us Page Styling */
+.contact-us {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+  .contact-us span{color: #e54b4b;	}
+  /* Map Container */
+  .map-container {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 400px;
+  }
+  
+  /* Get In Touch Section */
+  .get-in-touch{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.get-in-touch span{color: #e54b4b;	}
+.get-in-touch h3{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 10px;
+	
+}
+  
+  .contact-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details a {
+    color: #007bff; /* Blue links */
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Section */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #0b1120; /* Dark blue background */
+  }
+  
+  .footer-left h3,
+  .footer-right h3 {
+    color: #00ff85; /* Neon green for headings */
+  }
+  
+  .footer-left p,
+  .footer-right p {
+    color: white; /* White text for contrast */
+  }
+  
+  .social-media-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: white; /* White social media links */
+  }
+  
+  .social-media-icons a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      gap:20 px;
+    }
+}

@@ -1,0 +1,75 @@
+/* General Styling */
+.meet-the-team {
+    text-align: center;
+    padding: 80px;
+    background-color: #ffffff; /* Dark blue background */
+    color: rgb(0, 0, 0);
+  }
+  
+  .meet-the-team h1 {
+    font-size: 36px;
+  }
+  
+  .meet-the-team p {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+  
+  /* Team Hierarchy */
+  .team-hierarchy {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-level {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* Space between team members */
+  }
+  
+  /* Individual Team Member */
+  .team-member {
+    text-align: center;
+    position: relative;
+  }
+  
+  .member-image {
+    width: 150px; /* Adjust size of images */
+    height: auto;
+    border-radius: 10%; /* Circular images */
+    filter: grayscale(100%); /* Black and white by default */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .team-member.active .member-image {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+  }
+  
+  .team-member.active {
+    transform: scale(1.1); /* Enlarge on hover */
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+  }
+  
+  .team-member p {
+    font-size: 14px;
+  }
+  
+  /* Children Nodes */
+  .children {
+    display: flex;
+    justify-content: center;
+  }
+/* Add connectors between parent and child nodes */
+.team-member::before {
+    content: '';
+    position: absolute;
+    top: -20px; /* Adjust based on spacing */
+    left: calc(50% - 1px);
+    width: 2px; /* Connector width */
+    height: 20px; /* Connector height */
+  }
+    

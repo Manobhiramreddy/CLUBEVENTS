@@ -1,0 +1,66 @@
+/* General Styling */
+.countdown-container {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Top-left Countdown */
+.top-left-countdown {
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  padding: 12px; /* Slightly larger padding */
+  border-radius: 8px; /* Rounded corners */
+  z-index: 1000; /* Ensure it appears above other elements */
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.2); /* Subtle glow effect */
+}
+
+
+.top-left-countdown p {
+  margin: 0;
+}
+
+.top-left-countdown span {
+  font-size: 16px;
+}
+
+/* Central Countdown Design */
+.central-countdown {
+  text-align: center;
+  margin-top: 10px; /* Adjust to center vertically */
+}
+
+.central-countdown h2 {
+  font-size: 28px; /* Adjusted font size for subtitle */
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a; /* Dark background for timer container */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+}
+
+.time-box {
+  margin: 0 15px;
+  text-align: center;
+}
+
+.time-box h2 {
+  font-size: 64px; /* Large numbers for countdown */
+  color: white; /* White text for contrast */
+}
+
+.time-box p {
+  font-size: 16px; /* Smaller labels for time units */
+  color: #b3b3b3; /* Light gray for labels */
+}
+
+/* Background Gradient for Central Section */
+.central-countdown {
+  padding: 20px;
+  background-image: linear-gradient(to right, #7f00ff, #e100ff); /* Purple to pink gradient */
+  border-radius: 16px; /* Rounded edges */
+}

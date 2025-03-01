@@ -1,0 +1,12 @@
+/* Global Reset */
+
+
+/* Define a CSS variable for the navbar height */
+:root {
+  --navbar-height: 40px; /* Match this to your navbar's height */
+}
+
+/* Ensure body content starts below the navbar */
+body {
+  margin-top: var(--navbar-height); /* Push all content below the fixed navbar */
+}

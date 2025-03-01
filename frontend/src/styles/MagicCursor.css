@@ -1,0 +1,74 @@
+/* Hide the default cursor */
+body {
+    cursor: none;
+}
+
+/* Magic Cursor */
+.magic-cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: red; /* Default inner circle color */
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.magic-cursor-ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px; /* Outer ring size */
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 0, 0, 0.5); /* Default outer ring color */
+    transform: translate(-50%, -50%);
+}
+
+/* Settings Toggle */
+.settings-toggle {
+    position: fixed;
+    top: 250px;
+    right: 20px;
+    z-index: 10000;
+}
+
+.settings-icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Smooth rotation animation */
+}
+
+.settings-icon.rotate {
+    transform: rotate(360deg); /* Rotate gear icon when clicked */
+}
+
+.settings-panel {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    background-color: black;
+    color: rgb(248, 248, 248);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.settings-panel.active {
+    display: block; /* Show panel when active */
+}
+
+.color-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

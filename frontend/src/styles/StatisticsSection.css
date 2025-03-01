@@ -1,0 +1,37 @@
+/* Statistics Section Container */
+.statistics-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background-color: #000000; /* Light background */
+}
+
+/* Stat Card */
+.stat-card {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.stat-card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+}
+
+/* Stat Icon */
+.stat-icon {
+  height: 50px;
+}
+
+/* Stat Count */
+.stat-count {
+  font-size: 24px;
+}
+
+/* Stat Label */
+.stat-label {
+  font-size: 14px;
+}
