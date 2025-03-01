@@ -3,12 +3,12 @@ import { useNavigate } from "react-router-dom";
 import "../styles/ClubsPage.css";
 
 const clubs = [
-  { name: "Web Development (Basic)", logo: "/public/images/satarc.png", route: "/web-dev" },
-  { name: "Full Stack Web-Development", logo: "/src/images/CCCLogo.png", route: "/full-stack" },
-  { name: "Data Science", logo: "/src/images/image.png", route: "/data-science" },
-  { name: "Cybersecurity", logo: "/src/images/ccclogo.png", route: "/cybersecurity" },
-  { name: "AI & ML", logo: "/src/images/satarc.png", route: "/ai-ml" },
-  { name: "Blockchain", logo: "/src/images/ccclogo.png", route: "/blockchain" },
+  { name: "Web Development (Basic)", logo: "/images/satarc.png", route: "/web-dev" },
+  { name: "Full Stack Web-Development", logo: "images/CCCLogo.png", route: "/full-stack" },
+  { name: "Data Science", logo: "images/image.png", route: "/data-science" },
+  { name: "Cybersecurity", logo: "images/ccclogo.png", route: "/cybersecurity" },
+  { name: "AI & ML", logo: "images/satarc.png", route: "/ai-ml" },
+  { name: "Blockchain", logo: "images/ccclogo.png", route: "/blockchain" },
 ];
 
 const ClubsPage = () => {

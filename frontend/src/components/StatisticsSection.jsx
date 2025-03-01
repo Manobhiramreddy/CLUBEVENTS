@@ -3,11 +3,11 @@ import CountUp from 'react-countup';
 import '../styles/StatisticsSection.css';
 
 const stats = [
-  { id: 1, icon: '/src/images/attendees.svg', count: 8000, label: 'Attendees' },
-  { id: 2, icon: '/src/images/attendees.svg', count: 250, label: 'International Speakers' },
-  { id: 3, icon: '/src/images/attendees.svg', count: 75, label: 'Countries Represented' },
-  { id: 4, icon: '/src/images/attendees.svg', count: 150, label: 'Exhibitors' },
-  { id: 5, icon: '/src/images/attendees.svg', count: 200, label: 'Global Media' },
+  { id: 1, icon: 'images/attendees.svg', count: 8000, label: 'Attendees' },
+  { id: 2, icon: 'images/attendees.svg', count: 250, label: 'International Speakers' },
+  { id: 3, icon: 'images/attendees.svg', count: 75, label: 'Countries Represented' },
+  { id: 4, icon: 'images/attendees.svg', count: 150, label: 'Exhibitors' },
+  { id: 5, icon: 'images/attendees.svg', count: 200, label: 'Global Media' },
 ];
 
 const StatisticsSection = () => {

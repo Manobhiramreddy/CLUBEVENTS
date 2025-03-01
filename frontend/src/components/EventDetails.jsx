@@ -17,7 +17,7 @@ const EventDetails = () => {
 
       {/* Right Section */}
       <div className="conference-right">
-        <img src="/src/images/pk.png" alt="Speaker" className="speaker-image" />
+        <img src="images/pk.png" alt="Speaker" className="speaker-image" />
         <div>
           <h3>Jack McCauley</h3>
           <p>Innovator-in-Residence, Berkeley University<br />Co-founder, Oculus</p>

@@ -6,8 +6,8 @@ const events = [
   {
     id: 1,
     name: "Web Development Workshop",
-    poster: "/src/images/cccevent.png",
-    clubLogo: "/src/images/ccclogo.png",
+    poster: "images/cccevent.png",
+    clubLogo: "images/ccclogo.png",
     deadline: "February 15, 2025, 11:59 PM IST",
     date: "February 20, 2025",
     venue: "Auditorium Hall A",
@@ -17,8 +17,8 @@ const events = [
   {
     id: 2,
     name: "Full Stack Bootcamp",
-    poster: "/src/images/cccevent.png",
-    clubLogo: "/src/images/satarc.png",
+    poster: "images/cccevent.png",
+    clubLogo: "images/satarc.png",
     deadline: "February 18, 2025, 11:59 PM IST",
     date: "February 25, 2025",
     venue: "Lab Room B2",
@@ -28,8 +28,8 @@ const events = [
   {
     id: 3,
     name: "Data Science Meetup",
-    poster: "/src/images/cccevent.png",
-    clubLogo: "/src/images/ccclogo.png",
+    poster: "images/cccevent.png",
+    clubLogo: "images/ccclogo.png",
     deadline: "February 22, 2025, 11:59 PM IST",
     date: "March 1, 2025",
     venue: "Conference Room C1",

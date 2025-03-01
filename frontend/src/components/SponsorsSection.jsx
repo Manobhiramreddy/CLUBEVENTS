@@ -2,15 +2,15 @@ import React from 'react';
 import '../styles/SponsorsSection.css';
 
 const sponsors = [
-  { id: 1, name: 'CCC', icon: '/src/images/ccclogo.png' },
-  { id: 2, name: 'Astro', icon: '/src/images/image.png' },
-  { id: 3, name: 'COSC', icon: '/src/images/cosc.png' },
-  { id: 4, name: 'Pinia', icon: '/src/images/satarc.png' },
-  { id: 5, name: 'Nitro', icon: '/src/images/ccclogo.png' },
-  { id: 6, name: 'Vue.js', icon: '/src/images/satarc.png' },
-  { id: 7, name: 'Vite', icon: '/src/images/cosc.png' },
-  { id: 8, name: 'Storefront UI', icon: '/src/images/html.png' },
-  { id: 9, name: 'Nuxt', icon: '/src/images/docker.png' },
+  { id: 1, name: 'CCC', icon: 'images/ccclogo.png' },
+  { id: 2, name: 'Astro', icon: 'images/image.png' },
+  { id: 3, name: 'COSC', icon: 'images/cosc.png' },
+  { id: 4, name: 'Pinia', icon: 'images/satarc.png' },
+  { id: 5, name: 'Nitro', icon: 'images/ccclogo.png' },
+  { id: 6, name: 'Vue.js', icon: 'images/satarc.png' },
+  { id: 7, name: 'Vite', icon: 'images/cosc.png' },
+  { id: 8, name: 'Storefront UI', icon: 'images/html.png' },
+  { id: 9, name: 'Nuxt', icon: 'images/docker.png' },
 ];
 
 const SponsorsSection = () => {
